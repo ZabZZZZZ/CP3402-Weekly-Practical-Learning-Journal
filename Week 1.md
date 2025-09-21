@@ -1,9 +1,9 @@
 # CP3402 Weekly Practical Student Learning Journal Record
-Student’s name : Zia Beg
+Student’s name: Zia Beg
 
-ID : 14956832
+ID: 14956832
 
-## Week 1: Subject Intro and Web Design Basics
+## Week 1: Introduction and Web Design
 
 ### Learning Activities
 
@@ -15,6 +15,8 @@ This was my first experience using the Bootstrap examples, from which I created 
 
 ### Resources/Links
 
+[My Website](https://s235124.github.io/startupAssignment1)
+
 [Bootstrap Examples with Code snippets](https://getbootstrap.com/docs/5.1/examples/)
 
 [Example website from a former student of this subject](https://github.com/ChealseaTan/CP3402-Practical-1/tree/main)
@@ -25,11 +27,11 @@ GenAI (ChatGPT)
 
 ### Estimated Hours
 
-7 hours
+Total 12 hours, where I spent 4 hours setting up Github Pages, about 1 hour for the journal writing and the remaining time in developing, deploying and debugging the site.
 
 ### Content Insights
 
-Re-learning and re-applying my prior knowledge in web development was quite fun. I struggled when it came to deploying the site to Github Pages, but in the end, I learned how to do it. 
+Re-learning and re-applying my prior knowledge in web development was quite fun. I struggled when it came to deploying the site to Github Pages, but in the end, I learned how to do it. Having just 2.5 days to do this, however, turned out to be a bit challenging, and the timing was extremely tight for me.
 
 ### Career/Employability/Learning Insights
 
