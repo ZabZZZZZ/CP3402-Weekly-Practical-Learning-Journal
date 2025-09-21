@@ -19,6 +19,8 @@ This was my first experience using the Bootstrap examples, from which I created 
 
 [Example website from a former student of this subject](https://github.com/ChealseaTan/CP3402-Practical-1/tree/main)
 
+[Pictures on website taken from the Yakuza wiki](https://yakuza.fandom.com/wiki/Yakuza_Wiki)
+
 GenAI (ChatGPT)
 
 ### Estimated Hours
