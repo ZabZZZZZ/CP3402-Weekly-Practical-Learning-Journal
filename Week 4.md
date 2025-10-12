@@ -9,15 +9,15 @@ ID: 14956832
 
 In the fourth week of CMS, I spent my time in two areas. The first area was further developing the sites and adding more features, as well as fine-tuning and making small changes to the design. I studied the assignment guide more closely, and I decided to change the "Our Experts" page to "Our Team". Reason being, that I could add more team members, while still keeping the "experts", without having to make another tab.
 
-The second area was creating a local development environment. The point of doing this is, that it enables me to make changes locally and test them before publishing a "final" version of all the changes to the live public site, also known as the "production" environment. This part was not too painful for Joomla, as there is a plugin that makes this easy. There was only one problem, and it was due to how I first set up Joomla locally, then moved it to a cloud server for hosting, by just copy/pasting the files. This resulted in two directories that should not have been there, but the problem was solved by just deleting them from the server.
-
-**(Wordpress here)**
+The second area was creating a local development environment. The point of doing this is, that it enables me to make changes locally and test them before publishing a "final" version of all the changes to the live public site, also known as the "production" environment.
 
 I also managed to make a "custom" url for the sites, as can be seen on the screenshots below:
 
-![Joomla working locally](/pics/image.png)
+![Joomla working locally](/pics/JoomlaLocal.png)
 
-After all this, I have installed 5 plugins, 3 for Joomla and 2 for Wordpress.
+![Wordpress working locally](/pics/WordpressLocal.png)
+
+After all this, I have installed 6 plugins, 3 for Joomla and 3 for Wordpress.
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
@@ -33,7 +33,7 @@ After all this, I have installed 5 plugins, 3 for Joomla and 2 for Wordpress.
     <td>BaForms</td>
   </tr>
   <tr>
-    <td>-</td>
+    <td>All-in-One WP Migration and Backup</td>
     <td>Akeeba Backup for Joomla!</td>
   </tr>
 </table>
@@ -48,11 +48,15 @@ After all this, I have installed 5 plugins, 3 for Joomla and 2 for Wordpress.
 
 [My Website on GH Pages](https://s235124.github.io/startupAssignment1)
 
+GenAI (ChatGPT)
+
 ### Extensions for Wordpress
 
 [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 
 [Responsive Pricing Table](https://wordpress.org/plugins/dk-pricr-responsive-pricing-table/)
+
+[All-in-One WP Migration and Backup](https://wordpress.org/plugins/all-in-one-wp-migration/)
 
 ### Extensions for Joomla
 
@@ -62,30 +66,28 @@ After all this, I have installed 5 plugins, 3 for Joomla and 2 for Wordpress.
 
 [Akeeba Backup](https://www.akeeba.com/products/akeeba-backup.html)
 
-GenAI (ChatGPT)
-
 ---
 
 ### Estimated Hours
 
-2 hours for Joomla local env
-
-Total 10 hours, where 4 hours were spent setting up AWS, EC2 and Wordpress, 2 hours spent actually learning Wordpress, and the remaining time spent migrating and cleaning up on the new Wordpress site.
+Total 7 hours, where 2 hours were spent setting up the local development environment for Joomla, 1 hour spent setting up Wordpress local development environment, 3 hours spent adding more content to the team page, and 1 hour spent in writing the weekly journal.
 
 ---
 
 ### Content Insights
 
-As with Joomla last week, it was quite interesting to learn Wordpress. I felt the same when it came to making web development easier, but this time even more so with all the different blocks that could be used. I would say, if I had to pick one, I would choose Wordpress over Joomla, as it just is better in my eyes. It is more flexible, making it better in a broader spectrum of cases.
+Adding more content to my sites was quite easy. I have spent a good amount of time learning the two platforms, so I knew my way around them, as well as how to deal with the quirks of each platform. For example, some things that just worked as HTML in Joomla did not work the same in Wordpress, so I had to use certain "blocks" provided by Wordpress to make it look similar.
 
-This time around, the amount of HTML code that I could write was a bit more limited, so it took more time and effort to migrate my site to Wordpress, and I had to learn to use the different blocks rather than just using pure HTML. There is, however always an option to use custom CSS classes for styling, which made it a bit easier to get it to look the same as my Joomla and GH Pages sites.
+Making a local development environment was one of the major parts that I spent time with this week. This part was not too painful for Joomla, as there is a plugin that makes this easy. There was only one problem, and it was due to how I first set up Joomla locally, then moved it to a cloud server for hosting, by just copy/pasting the files. This resulted in two directories that should not have been there, but the problem was solved by simply just deleting them from the server.
 
-The web hosting aspect of it was also interesting. Setting up the EC2 instance took some effort, but I was relieved to see that it was essentially just a linux server, which I have some experience with.
+After making a local development environment for Joomla, I proceeded to do the same for Wordpress. Again, there was a plugin that made this extremely easy, the only part that took any time was making a local Wordpress site before importing the site from the cloud.
+
+The plugins used for each site is an equivalent of each other. For example, I used a plugin to make a contact form for the contact us page on both Joomla and Wordpress. This makes it very easy to leave some tedious parts to the plugins, while I can focus on the content of the sites, as well as the design.
 
 ---
 
 ### Career/Employability/Learning Insights
 
-The Wordpress site is hosted on an AWS EC2 instance that I set up. I am certain that knowing this platform and technology will come in handy in the future. Knowing my way around AWS will prove to be important in my future job. Furthermore, Wordpress is widely used, around 43% of all website use it, so I believe it will be important to know this platform.
+When setting up the local development environment for Joomla and Wordpress, I used an application called XAMPP. It contains multiple applications in one, but the most important were Apache, PhpMyAdmin, and MariaDB. These were important in setting up the sites locally, and I could use just one XAMPP application to host both of my sites locally. I also went a step further, and gave custom domains to my local sites, which not only makes it easier to get to the websites, it also feels really cool.
 
-As I wrote last week, "*knowing yet another platform that is used for web development is good, not only because I learn a new skill, but it also improves my ability to learn and grasp new technologies and platforms further.*" Having to learn 3 different platforms/technologies in 3 weeks, not to mention 3 different site hosting solutions, has been difficult, yet I feel that I learn a little faster every time. With technology ever-evolving, being able to learn new platforms and technologies fast will be extremely helpful in my future, not only for university, but also for "real-life" jobs.
+I believe, that having a development pipeline is necessary to having a smooth development cycle. Going from making changes to the local environment, to pushing them to production is one thing that happens in almost every company, so knowing how to set up the local development environment will definitely be important in a career context.
