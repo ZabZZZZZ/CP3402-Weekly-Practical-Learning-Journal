@@ -7,7 +7,7 @@ ID: 14956832
 
 ### Learning Activities
 
-In the sixth week of CMS, I spent my time getting acquainted with the rest of my team for the assignment 2, which is a group project. However, half of my team did not show up, so I ended up only getting acquainted with one of my team members. Still, we managed to get the project started. I learned about Slack, a tool which is useful for integrating project management with communication between team members.
+In the sixth week of CMS, I spent my time getting acquainted with the rest of my team for the assignment 2, which is a group project. However, half of my team did not show up, so I ended up only getting acquainted with one of my team members. Still, we managed to get the project started. I learned about Slack, a tool which is useful for integrating project management with communication between team members. We also created a group on Whatsapp for general purpose communication.
 
 ---
 
